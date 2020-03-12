@@ -44,6 +44,7 @@ class _ProfileEditState extends State<ProfileEdit> {
                     decoration: InputDecoration(
                       labelText: 'Name',
                       hintText: 'Kunal Singh',
+                      prefixIcon: Icon(Icons.person),
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(8)),
                     ),
@@ -56,6 +57,7 @@ class _ProfileEditState extends State<ProfileEdit> {
                 TextFormField(
                     decoration: InputDecoration(
                       labelText: 'E-Mail',
+                      prefixIcon: Icon(Icons.email),
                       hintText: 'Kunal Singh',
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(8)),
@@ -67,6 +69,7 @@ class _ProfileEditState extends State<ProfileEdit> {
                 TextFormField(
                     decoration: InputDecoration(
                       labelText: 'Mobile',
+                      prefixIcon: Icon(Icons.call),
                       hintText: 'Kunal Singh',
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(8)),
@@ -78,6 +81,7 @@ class _ProfileEditState extends State<ProfileEdit> {
                     TextFormField(
                     decoration: InputDecoration(
                       labelText: 'Address',
+                      prefixIcon: Icon(Icons.location_city),
                       hintText: 'Kunal Singh',
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(8)),
