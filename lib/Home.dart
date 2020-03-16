@@ -1,6 +1,7 @@
 import 'package:admin/Login.dart';
 import 'package:admin/complaints.dart';
 import 'package:admin/profile.dart';
+import 'package:admin/report.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -63,6 +64,10 @@ class _HomeScreenState extends State<Home> {
                         style: TextStyle(
                             fontSize: 20, fontWeight: FontWeight.w500),
                       ),
+                      onLongPress: ()
+                      {
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>Report()));
+                      },
                       onTap: () {
                         showDialog<Null>(
                             context: context,
